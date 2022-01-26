@@ -46,7 +46,7 @@ class TodosScreen extends StatelessWidget {
                         ),
                       );
                     })
-                : const Center(child: Text('Let\'s make some task ')),
+                : const Center(child: Text('Let\'s make some task 2 ')),
             floatingActionButton: FloatingActionButton(
               onPressed: () => navigateToCreateTodoScreen(context),
               child: const Icon(Icons.add),
